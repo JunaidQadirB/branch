@@ -113,8 +113,8 @@ module.exports = function (grunt) {
             // grunt-open will open your browser at the project's URL
             open: {
                 all: {
-                    // Gets the port from the connect configuration
-                    path: 'http://localhost:<%= connect.server.options.port%>'
+                    // Replace this with your development server URL
+                    path: 'http://localhost'
                 }
             }
         }
@@ -126,13 +126,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-open');
-    // Creates the `server` task
-    grunt.registerTask('server', [
-        // Open before connect because connect uses keepalive at the moment
-        // so anything after connect wouldn't run
-        'open'
-    ]);
 // Default task.
-    grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'cssmin', 'copy', 'server']);
+    grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'cssmin', 'copy', 'open']);
 
 };
