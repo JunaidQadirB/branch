@@ -20,3 +20,6 @@ Configure for development
 - Make sure you have `nodejs` installed and run
 
     `npm install`
+- and then
+- 
+    `grunt`
