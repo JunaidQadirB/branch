@@ -21,5 +21,5 @@ Configure for development
 
     `npm install`
 - and then
-- 
+
     `grunt`
