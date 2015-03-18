@@ -9,7 +9,7 @@ Development Prerequisites
 ---
 - [Nodejs](http://nodejs.org)
 - [Grunt](http://gruntjs.com/) - `npm install -g grunt-cli`
-
+- [LiveReload] (https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) Chrome extension (optional)
 Configure for development
 ---
 - Clone the repo in to the themes directory of your development WordPress installation.
@@ -22,4 +22,4 @@ Configure for development
     `npm install`
 - and then
 
-    `grunt`
+    `grunt` and `grunt watch` in another terminal/command prompt window
