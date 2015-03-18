@@ -21,7 +21,7 @@ Configure for development
     
 - Change to the `your-theme-name` directory
 - Remove the `.git` directory and run `git init` to initialize your own git repo
-- Open Up `style.css` and modify theme name and other details to your liking
+- Open up `style.css` and modify theme name and other details to your liking
 - Edit `grunt/open.js` and replace `http://localhost` to match your WordpPress installation URL.
 - Make sure you have `nodejs` installed and run
 
@@ -30,3 +30,5 @@ Configure for development
 - and then
 
     `grunt watch`
+
+Happy theming y'all!!
