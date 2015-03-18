@@ -1,8 +1,4 @@
 module.exports = {
-        gruntfile: {
-            files: '<%= jshint.gruntfile.src %>',
-            tasks: ['jshint:gruntfile']
-        },
         scripts: {
             files: ['js/*.js'],
             task: 'jshint',
