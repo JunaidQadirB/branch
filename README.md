@@ -20,6 +20,7 @@ Configure for development
 - Make sure you have `nodejs` installed and run
 
     `npm install`
+    
 - and then
 
-    `grunt` and `grunt watch` in another terminal/command prompt window
+    `grunt watch`
