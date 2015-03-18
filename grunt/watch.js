@@ -3,12 +3,15 @@ module.exports = {
             files: ['js/*.js'],
             task: 'jshint',
             options: {
-                spawn: false
+               livereload: true
             }
         },
         styles: {
             files: ['less/site.less'],
-            tasks: ['less', 'cssmin']
+            tasks: ['less', 'cssmin'],
+            options: {
+               livereload: true
+            }
         }
         /*lib_test: {
          files: '<%= jshint.lib_test.src %>',
