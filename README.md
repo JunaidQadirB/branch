@@ -1,6 +1,14 @@
 # branch
 A WordPress starter theme based on Timber library and Bootstrap
 
+Features
+---
+- Responsive
+- Uses Timber library
+- Uses Less
+- NPM as package manager
+- Integrated with Grunt
+
 Theme Prerequisites
 ---
 Timber-library WordpPress plugin. Get it from [here](https://wordpress.org/plugins/timber-library/) or [here](https://github.com/jarednova/timber)
