@@ -3,11 +3,11 @@ A WordPress starter theme based on Timber library and Bootstrap
 
 Features
 ---
-- Responsive
-- Uses Timber library
-- Uses Less
-- NPM as package manager
-- Integrated with Grunt
+- Based on Timber library. 
+- Uses Bootstrap and is responsive 
+- Uses NPM for package management. 
+- Uses Less 
+- Uses Grunt for building and auto reloading
 
 Theme Prerequisites
 ---
