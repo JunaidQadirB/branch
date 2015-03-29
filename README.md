@@ -1,3 +1,5 @@
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JeyKeu/branch/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 # branch
 A WordPress starter theme based on Timber library and Bootstrap
 
