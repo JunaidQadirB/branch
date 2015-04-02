@@ -20,6 +20,6 @@ module.exports = function (grunt) {
 
     // grunt.loadTasks('tasks');
 // Default task.
-    grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'cssmin', 'copy', 'open']);
+    grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'less', 'cssmin', 'copy', 'open']);
 
 };
