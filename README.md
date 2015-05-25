@@ -1,5 +1,5 @@
 # branch
-A WordPress starter theme based on Timber library and Bootstrap
+A WordPress starter theme based on Timber library and Bootstrap. (Forked from [Timber Starter Theme](http://github.com/Upstatement/timber-starter-theme))
 
 Features
 ---
