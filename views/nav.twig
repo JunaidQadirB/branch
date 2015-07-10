@@ -15,7 +15,7 @@
                     {% for item in menu.get_items %}
                         {% if item.get_children %}
                             <li class=" dropdown {{item.classes | join(' ')}} {% if item.current or item.current_item_ancestor or item.current_item_parent %}active{%endif%}">
-                                <a class="dropdown-toggle" data-toggle="drodown" href="{{item.get_link}}">{{item.title}}<b class="caret"></b></a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="{{item.get_link}}">{{item.title}}<b class="caret"></b></a>
                                 <ul class="dropdown-menu" role="menu">
                                     {% for child in item.get_children %}
                                         <li {% if child.current %}class="active"{%endif%}>
