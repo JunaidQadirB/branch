@@ -1,6 +1,11 @@
 # branch
 A WordPress starter theme based on Timber library and Bootstrap. (Forked from [Timber Starter Theme](http://github.com/Upstatement/timber-starter-theme))
 
+<div style="text-align:center">
+<a href="http://github.com/JeyKeu/branch"><img src="http://i.imgur.com/dpXBLbu.png" style="display:block; margin:auto; width:100%; max-width:100%"/></a>
+<div>
+
+
 Features
 ---
 - Based on Timber library. 
