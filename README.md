@@ -16,7 +16,7 @@ Features
 
 Theme Prerequisites
 ---
-Timber-library WordpPress plugin. Get it from [here](https://downloads.wordpress.org/plugin/timber-library.0.22.6.zip) or [here](https://github.com/timber/timber/tree/0.22.6)
+Timber-library WordpPress plugin. Get it from [here](https://wordpress.org/plugins/timber-library/) or [here](https://github.com/jarednova/timber)
 
 Development Prerequisites
 ---
