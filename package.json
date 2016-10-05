@@ -4,6 +4,12 @@
   "version": "1.0.0",
   "homepage": "http://branch.junaidqadir.com",
   "author": "Junaid Qadir Shekhanzai <shekhanzai.baloch@gmail.com>",
+   "license": "MIT",
+  "maintainers": [
+    {
+      "name": "jeykeu",
+      "email": "shekhanzai.baloch@gmail.com"
+    }
   "engines": {
     "node": ">= 0.10.0"
   },
