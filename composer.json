@@ -1,0 +1,12 @@
+{
+    "name": "jeykeu/branch",
+    "description": "A WordPress starter theme based on Timber library and Bootstrap.",
+    "license":"MIT",
+    "authors": [
+        {
+            "name": "Junaid Qadir Shekhanzai",
+            "email": "shekhanzai.baloch@gmail.com"
+        }
+    ],
+    "require": {}
+}
