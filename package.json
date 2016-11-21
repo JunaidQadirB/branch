@@ -10,6 +10,7 @@
       "name": "jeykeu",
       "email": "shekhanzai.baloch@gmail.com"
     }
+  ]
   "engines": {
     "node": ">= 0.10.0"
   },
