@@ -13,7 +13,7 @@ $context = Timber::get_context();
 $post = Timber::query_post();
 $context['post'] = $post;
 $context['wp_title'] .= ' - ' . $post->title();
-$context['comment_form'] = TimberHelper::get_comment_form();
+$context['comment_form'] = TimberHelper::ob_function("comment_form");
 
 if (post_password_required($post->ID)){
 	Timber::render('pages/single-password.twig', $context);
