@@ -52,10 +52,6 @@ temp/
 node_modules/
 npm-debug.log
 
-/css/site.css
-/css/site.css.map
-/js/vendor/
-/css/site.css
-/css/site.css.map
-/js/vendor
+/assets/src/js/vendor
 .grunt-init
+/assets/build/

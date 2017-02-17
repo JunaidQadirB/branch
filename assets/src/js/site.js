@@ -4,5 +4,4 @@ jQuery(document).ready(function ($) {
     }, function () {
         $(this).find('.dropdown-menu').first().stop(true, true).slideUp(105);
     });
- console.log("fsdsdf");
 });
