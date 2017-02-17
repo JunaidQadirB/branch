@@ -11,19 +11,16 @@ Features
 - Based on Timber library. 
 - Uses Bootstrap and is responsive 
 - Uses NPM for package management. 
-- Uses Less 
-- Uses Grunt for building and auto reloading
-
-Theme Prerequisites
----
-Timber-library WordpPress plugin. Get it from [here](https://wordpress.org/plugins/timber-library/) or [here](https://github.com/jarednova/timber)
+- Uses SASS 
+- Uses Gulp for building and auto reloading 
 
 Development Prerequisites
 ---
 
+- [Composer](http://getcomposer.org)
 - [Nodejs](http://nodejs.org)
-- [Grunt](http://gruntjs.com/) - `npm install -g grunt-cli`
-- [LiveReload] (https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) Chrome extension (optional)
+- [Gulp](http://gulpjs.com/)
+- [Browsersync](https://browsersync.io/)
 
 Configure for development
 ---
@@ -35,13 +32,12 @@ Configure for development
 - Change to the `your-theme-name` directory
 - Remove the `.git` directory and run `git init` to initialize your own git repo
 - Open up `style.css` and modify theme name and other details to your liking
-- Edit `grunt/open.js` and replace `http://localhost` to match your WordpPress installation URL.
 - Make sure you have `nodejs` installed and run
 
-    `npm install`
+    `composer install`
     
 - and then
 
-    `grunt watch`
+    `gulp`
 
 Happy theming y'all!!

@@ -18,9 +18,10 @@ gulp.task('browser-sync', function () {
     ];
 
     //initialize browsersync
+    var url = "localhost/PostDemo/";
     browserSync.init(files, {
         //browsersync with a php server
-        proxy: "localhost/PostDemo/",
+        proxy: url,
         notify: false
     });
 });

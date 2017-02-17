@@ -1,0 +1,23 @@
+{
+    "name": "jeykeu/branch",
+    "description": "A WordPress starter theme based on Timber library and Bootstrap.",
+    "type": "wordpress-theme",
+    "require": {
+        "timber/timber": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junaid Qadir Shekhanzai",
+            "email": "shekhanzai.baloch@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "npm install"
+        ],
+        "post-update-cmd": [
+            "npm install"
+        ]
+    }
+}
