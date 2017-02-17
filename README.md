@@ -10,9 +10,10 @@ Features
 ---
 - Based on Timber library. 
 - Uses Bootstrap and is responsive 
-- Uses NPM for package management. 
-- Uses SASS 
-- Uses Gulp for building and auto reloading 
+- NPM for package management. 
+- SASS 
+- Gulp for building
+- Browsersync for multi-device testing
 
 Development Prerequisites
 ---
@@ -32,7 +33,7 @@ Configure for development
 - Change to the `your-theme-name` directory
 - Remove the `.git` directory and run `git init` to initialize your own git repo
 - Open up `style.css` and modify theme name and other details to your liking
-- Make sure you have `nodejs` installed and run
+- Make sure you have `nodejs` and `composer` installed and run
 
     `composer install`
     
