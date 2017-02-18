@@ -29,8 +29,7 @@ Configure for development
     `composer create-project jeykeu/branch your-theme-name`
 - Change to the `your-theme-name` directory
 - Open up `style.css` and modify theme name and other details to your liking
-- Make sure you have `nodejs` and `composer` installed and run
-    `composer install`
+- Edit `gulpfile.js` and set `devUrl` to your local WordPress URL in order to use browsersyncing feature
 - and then
 
     `gulp`
