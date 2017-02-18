@@ -1,13 +1,11 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
+require_once __DIR__ . '/vendor/autoload.php';
 
-if (!class_exists('Timber')) {
-	add_action('admin_notices', function() {
-		echo '<div class="error"><p>Timber not activated. Make sure you activate the plugin in <a href="' . admin_url('plugins.php#timber') . '">' . admin_url('plugins.php') . '</a></p></div>';
-	});
-	return;
-}
-
-class StarterSite extends TimberSite {
+use Timber;
+class StarterSite extends Timber\Site {
 
 	function __construct() {
 		add_theme_support('post-formats');
@@ -29,7 +27,7 @@ class StarterSite extends TimberSite {
 	}
 
 	function add_to_context($context) {
-		$context['menu'] = new TimberMenu();
+		$context['menu'] = new Timber\Menu();
 		$context['site'] = $this;
 		return $context;
 	}
