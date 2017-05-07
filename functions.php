@@ -3,9 +3,9 @@ error_reporting(E_ALL);
 ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 require_once __DIR__ . '/vendor/autoload.php';
+use Timber\Site;
 
-use Timber;
-class StarterSite extends Timber\Site {
+class StarterSite extends Site {
 
 	function __construct() {
 		add_theme_support('post-formats');
