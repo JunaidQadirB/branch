@@ -4,7 +4,7 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 require_once __DIR__ . '/vendor/autoload.php';
 
-$timber = new \Timber\Timber();
+use Timber;
 class StarterSite extends Timber\Site {
 
 	function __construct() {
