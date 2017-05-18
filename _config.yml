@@ -1,0 +1,8 @@
+title: Branch
+description: A WordPress starter theme based on Timber library and Bootstrap
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
