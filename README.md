@@ -20,6 +20,7 @@ Development Prerequisites
 
 - [Composer](http://getcomposer.org)
 - [Nodejs](http://nodejs.org)
+- [SASS](http://sass-lang.com/install)
 - [Gulp CLI](http://gulpjs.com/)
 - [Browsersync](https://browsersync.io/)
 
